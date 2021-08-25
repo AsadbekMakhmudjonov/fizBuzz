@@ -1,0 +1,9 @@
+.container-made{
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+.input{
+  border-color: 1px solid rgba(83, 81, 81, 0.37)  !important;
+}
