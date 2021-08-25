@@ -1,6 +1,7 @@
 var elInput = document.querySelector(".js-input");
 var elForm = document.querySelector(".form");
 var elOutput = document.querySelector(".js-output");
+var elSubmit = document.querySelector(".js-submit");
 
 
 
@@ -23,7 +24,10 @@ var calculateFizBuzz = function () {
 elForm.addEventListener("submit", function (e) {
   e.preventDefault();
   calculateFizBuzz();
-  // elOutput.textContent = "";
-
 })
+
+elInput.addEventListener("keyup", function (e) {
+  e.preventDefault();
+  calculateFizBuzz();
+});
 
